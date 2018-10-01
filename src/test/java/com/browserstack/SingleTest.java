@@ -32,29 +32,30 @@ public class SingleTest extends BrowserStackJUnitTest {
 
 
 
-	// # check if the green top bar exists
-	WebElement green_bar_exists = driver.findElement(By.xpath("//*[@id=\"content\"]/div[5]/a"));
-	green_bar_exists.click();
+	// // # check if the green top bar exists
+	// WebElement green_bar_exists = driver.findElement(By.xpath("//*[@id=\"content\"]/div[5]/a"));
+	// green_bar_exists.click();
 
 
-	// ## Go to Product Menu
-	WebElement product_menu = driver.findElement(By.id("product-menu-toggle"));
-	product_menu.click();
+	// // ## Go to Product Menu
+	// WebElement product_menu = driver.findElement(By.id("product-menu-toggle"));
+	// product_menu.click();
 
-	// # click on automate product
-	WebElement automate_option = driver.findElement(By.xpath("//*[@id=\"product-menu-dropdown\"]/div[1]/ul[1]/li[3]/a/div[2]"));
-	automate_option.click();
-
-
-	// # check if the green top bar exists
-	WebElement green_bar_exists_2 = driver.findElement(By.xpath("/html/body/div[3]/a"));
-	green_bar_exists_2.click();
+	// // # click on automate product
+	// WebElement automate_option = driver.findElement(By.xpath("//*[@id=\"product-menu-dropdown\"]/div[1]/ul[1]/li[3]/a/div[2]"));
+	// automate_option.click();
 
 
-	WebElement element_name = driver.findElement(By.xpath("//*[@id=\"header\"]/header/div/div/div/nav/ul/li/a"));
-	String elementText = element_name.getText();
+	// // # check if the green top bar exists
+	// WebElement green_bar_exists_2 = driver.findElement(By.xpath("/html/body/div[3]/a"));
+	// green_bar_exists_2.click();
 
-	assertTrue(elementText.contains("Automate"));
+
+	// WebElement element_name = driver.findElement(By.xpath("//*[@id=\"header\"]/header/div/div/div/nav/ul/li/a"));
+	// String elementText = element_name.getText();
+
+	assertTrue(driver.getTitle().contains("Dashboard"));
+
 
   }
 }
