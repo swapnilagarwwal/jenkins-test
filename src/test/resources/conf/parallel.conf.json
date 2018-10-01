@@ -1,0 +1,24 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "swapnilagarwal6",
+  "key": "MY_PASSWORD_FOR_BS",
+
+  "capabilities": {
+    "build": "junit-browserstack",
+    "name": "parallel_test",
+    "browserstack.debug": true,
+    "browserstack.console": "verbose",
+    "project": "Swapnil Onboarding",
+    "build": "1.1.7"
+  },
+
+  "environments": [{
+    "browser": "chrome"
+  },{
+    "browser": "firefox"
+  },{
+    "browser": "safari"
+  },{
+    "browser": "internet explorer"
+  }]
+}

@@ -1,0 +1,19 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "swapnilagarwal6",
+  "key": "MY_PASSWORD_FOR_BS",
+
+  "capabilities": {
+    "build": "junit-browserstack",
+    "name": "single_test",
+    "browserstack.debug": true,
+    "browserstack.console": "verbose",
+    "project": "Swapnil Onboarding",
+    "build": "1.1.7",
+    "browserstack.networkLogs": true
+  },
+
+  "environments": [{
+    "browser": "chrome"
+  }]
+}
