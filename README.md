@@ -39,6 +39,8 @@ t1
 
 <a href="http://browserstack.com" rel="no">BrowserStack</a>
 
-<img src="/assets/browserstack-logo-600x315.png" height="80" title="BrowserStack Logo" alt="BrowserStack Logo" /> 
+
+<img src="https://user-images.githubusercontent.com/355427/27389060-9f716c82-569d-11e7-923c-bd5fe7f1c55a.png" height="80" title="BrowserStack Logo" alt="BrowserStack Logo" /> 
+
 
 Big thanks to [BrowserStack](https://www.browserstack.com) for letting the maintainers use their service to debug browser issues.
