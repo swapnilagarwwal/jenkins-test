@@ -37,4 +37,8 @@
 t1
 
 
-<a href="http://browserstack.com" rel="dofollow">BrowserStack</a>
+<a href="http://browserstack.com" rel="no">BrowserStack</a>
+
+<img src="/assets/browserstack-logo-600x315.png" height="80" title="BrowserStack Logo" alt="BrowserStack Logo" /> 
+
+Big thanks to [BrowserStack](https://www.browserstack.com) for letting the maintainers use their service to debug browser issues.
