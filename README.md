@@ -37,4 +37,4 @@
 t1
 
 
-<a href="http://browserstack.com">BrowserStack</a>
+<a href="http://browserstack.com" rel="dofollow">BrowserStack</a>
